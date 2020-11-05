@@ -57,7 +57,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Pacifico', cursive;
   font-size: 30px;
 }
-
 .monserat__text{
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
@@ -70,4 +69,136 @@ h1, h2, h3, h4, h5, h6 {
 .monserat__title{
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
+}
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*----------header----------*/
+
+    /*---top line---*/
+.top__header{
+  display:flex;
+  justify-content:flex-end;
+  position: relative;
+}
+.top__header__igm {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 33%;
+  z-index: 2;
+}
+.top__header__igm img{
+  width: 100%;
+}
+.top__header__info {
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  width: 50%;
+}
+.info__date {
+  display: flex;
+  margin-right: 40px;
+}
+.date__img {
+  padding-right:10px;
+}
+.info__fone {
+  display: flex;
+}
+.fone__img {
+  padding-right:10px;
+}
+.top__header__soc {
+  margin: 10px 0px 10px 0px;
+}
+.top__header__soc img{
+  padding-right: 10px;
+}
+    /*---nav---*/
+.nav__fone {
+  background-color: black;
+  opacity: 0.8;
+  z-index:1;
+  position: absolute;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li{
+  padding:40px 0px 40px 0px ;
+}
+
+.nav a{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+}
+.nav a:hover{
+  color: #E7A331;
+  border: 1px  solid #E7A331;
+  border-radius: 10px;
+}
+
+/*----------banner----------*/
+.banner{
+  background-image: url(../img/foodLove.png);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.wb{
+  height: 100%;
+}
+.banner__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+ 
+}
+.text__title {
+  
+}
+.btt{
+  font-size: 90px;
+  color: #fff;
+  text-shadow: 7px 7px 8px black;
+}
+.text__text {
+  margin-top: 40px;
+  width: 60%;
+  color: #fff;
+  text-align: center;
+}
+.bt{
+  font-size: 18px;
+  line-height: 25px;
+}
+.banner__button{
+  margin-top: 40px;
+}
+.buton__text{
+  color: #fff;
+  padding: 14px 40px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+.buton__text:hover{
+  color: #E7A331;
+  opacity: 0.7;
+  border: 2px solid #E7A331;
+  border-radius: 10px;
 }
