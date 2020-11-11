@@ -322,3 +322,44 @@ nav li{
   width:100%;
   
 }
+
+
+/*----delicacy----*/
+.delicacy__bg{
+  background-image: url(../img/bg_about_us.png);
+  background-repeat: repeat;
+  background-size: 100% auto;
+  position: relative;
+  z-index:-1;
+}
+.delicacy__bg__img{
+  position: absolute;
+  right: 0;
+  bottom: -160px;
+  width: 165px;
+  z-index:1;
+}
+.delicacy__bg__img img{ 
+  width: 100%;
+}
+.delicacy__text__block {
+  padding: 90px 0px 65px 0px;
+  text-align: center;
+}
+.pacifico__text {
+  margin-bottom: 10px;
+}
+
+.delicacy__img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+.delicacy__img {
+width: 100%; 
+}
+.block__one:last-child{
+  padding-bottom: 100px;
+  z-index:2;
+}
