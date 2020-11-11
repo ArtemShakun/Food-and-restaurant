@@ -58,16 +58,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
 }
 .monserat__text{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   font-size: 15px;
 }
 .monserat__text__title{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
 .monserat__title{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   font-size: 40px;
   font-weight: 500;
   text-transform: uppercase;
@@ -241,7 +241,7 @@ nav li{
 .about__us___text{
   width: 55%;
   margin-left: 80px;
-  z-index: 2;
+  z-index: 4;
  
 }
 .about__title {
@@ -273,6 +273,7 @@ nav li{
   background-size: 100%;
   width: 100%;
   position: relative;
+  z-index: 2;
   
 }
 .recipes__bg__img{
@@ -280,6 +281,7 @@ nav li{
   left: 0%;
   bottom: -150px;
   width: 165px;
+  z-index: 2;
 }
 .recipes__bg__img img{
   width: 100%;
@@ -297,7 +299,7 @@ nav li{
   display: flex;
   flex-direction: column;
   align-self:center;
-  z-index: 2;
+  
   
   
 }
@@ -311,6 +313,7 @@ nav li{
 }
 .sr_text_mr:last-child{
   padding-bottom: 60px;
+  z-index:3;
 }
 .special__reciper__img{
   width:670px;
@@ -330,14 +333,14 @@ nav li{
   background-repeat: repeat;
   background-size: 100% auto;
   position: relative;
-  z-index:-1;
+  z-index:1;
 }
 .delicacy__bg__img{
   position: absolute;
   right: 0;
   bottom: -160px;
   width: 165px;
-  z-index:1;
+  z-index:2;
 }
 .delicacy__bg__img img{ 
   width: 100%;
@@ -361,5 +364,72 @@ width: 100%;
 }
 .block__one:last-child{
   padding-bottom: 100px;
-  z-index:2;
+  z-index:3;
+}
+/*-------menu---------*/
+
+.menu__bg {
+  background-image: url(../img/menu/Layer\ 82.png);
+  background-color: black;
+  opacity: 0.9;
+  position: relative;
+  z-index:-1;
+}
+.menu__img__bg {
+  position: absolute;
+  left: 0;
+  bottom: -80px;
+  width: 165px;
+  z-index:-1;
+  width: 265px;
+}
+.menu__img__bg img{
+  width: 100%;
+}
+
+.menu__block__text {
+  text-align: center;
+  padding: 100px 0px 50px 0px;
+  color: #fff;
+  
+}
+.menu__block__img {
+  z-index:3;
+  display: flex;
+  margin: 10px; 
+}
+.menu__block__img:last-child {
+  padding-bottom: 150px;
+  
+}
+.menu__img {
+  width: 55%;
+}
+.menu__img img{
+  width: 100%;
+}
+.menu__text {
+  background-color:#fff;
+  width: 50%;
+  height: 100%;
+  align-self:center;
+  margin-left: -10px;
+}
+
+.m_t_m{
+  padding: 40px 0px 35px 65px;
+}
+.menu__list{
+  padding: 10px 0px 0px 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.menu__list:last-child{
+  padding-bottom: 50px;
+}
+.menu__list__name{
+  display: flex;
+  align-items: center;
 }
