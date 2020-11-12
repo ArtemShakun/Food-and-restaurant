@@ -490,3 +490,13 @@ width: 100%;
 .mobile__app__img__block img{
   width: 100%;
 }
+
+/*-------footer--------*/
+footer{
+  background-color: black;
+}
+.fts{
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+}
