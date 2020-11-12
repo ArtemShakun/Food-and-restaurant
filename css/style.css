@@ -215,7 +215,7 @@ nav li{
   padding: 0;
   margin-right: -5px;
   bottom: 0;
-  right: 0;
+  right: 2px;
   z-index: 1;
 }
 .about__us-bg-peppers img{
@@ -232,8 +232,8 @@ nav li{
 
 .about__us__img {
   width: 425px;
-
 }
+
 .about__us__img img{
   width: 100%;
 }
@@ -501,4 +501,9 @@ footer{
   color: #fff;
   text-align: center;
   padding: 25px;
+}
+/*----------BURGER-----------*/
+
+.header__burger{
+  display: none;
 }
