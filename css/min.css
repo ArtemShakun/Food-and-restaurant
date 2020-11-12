@@ -129,3 +129,170 @@
    width: 170px;
  }
 }
+@media only screen and (max-width : 768px){
+   /*-------all_style--------*/
+
+.wrapper{
+   max-width: 588px;
+}
+
+.monserat__title{
+   font-size: 25px;
+}
+/*----------header----------*/
+
+.info__date {
+   display: flex;
+   margin-right: 20px;
+
+ }
+
+ /*---nav---*/
+
+.nav a{
+   font-size: 12px;
+   padding: 10px 10px 10px 10px;
+ }
+
+/*----------banner----------*/
+
+.btt{
+   font-size: 60px; 
+}
+
+.text__text {
+   margin-top: 15px;  
+   width: 80%;
+  color: #fff;
+  text-align: center;
+ }
+
+ .buton__text{
+   padding: 10px 30px;
+ }
+
+ /*------about-us------*/
+
+ .about__us{
+   padding-top: 50px;
+   padding-bottom: 90px;
+ }
+
+ .about__us__img {
+   width: 50%;
+ }
+
+ .about__title__monserat{
+   margin-bottom: 20px;
+ }
+
+ .about__us___text{
+   width: 50%;
+   margin-left: 20px; 
+ }
+
+ .about__first__text{
+   margin-bottom: 15px;
+ }
+
+ .button {
+   margin-top: 20px;
+   width: 120px;
+   height: 40px;
+}
+
+/*-------special__recipes--------*/
+ 
+.special__block{
+   padding-top: 20px;  
+}
+
+.special__reciper__text{
+   width: 80%;
+}
+
+.sr_title_mr{
+   margin: 30px 20px 10px 25px;
+}
+
+.sr_text_mr{
+   margin: 0px 20px 10px 25px;
+ }
+
+ .sr_text_mr:last-child{
+   padding-bottom: 20px;
+ }
+
+.special__reciper__img{
+   width:90%;
+   margin-left: -80px;
+ }
+
+ /*----delicacy----*/
+
+.delicacy__text__block {
+   padding: 50px 0px 35px 0px;
+ }
+
+.delicacy__img img{
+   width: 140px;
+}
+
+/*-------menu---------*/
+
+.menu__block__text {
+   padding: 50px 0px 0px 0px;
+}
+
+.menu__img {
+   width: 90%;
+   align-self:center;
+}
+
+.menu__text {
+   width: 70%;
+   margin-left: -100px;
+}
+.order__img1{
+   margin-left:0px;
+ }
+
+.m_t_m{
+   padding: 10px 0px 15px 15px;
+ }
+
+ .menu__list{
+   padding: 10px 0px 0px 15px;   
+   width: 90%;
+ }
+
+ /*-------mobile--------*/
+
+.mobile__img {
+   width: 160px;
+ }
+
+.mobile___app {
+   color: #fff;
+   align-self: center;
+   margin-left:60px;
+ }
+
+.m_a_t_s{
+   font-size: 45px;
+ }
+
+ .m_a_t_t{
+   font-size: 15px;   
+   padding-bottom: 35px;
+ }
+
+ .mobile__app__img__block:first-child{
+   margin-right: 20px;
+   width: 145px;
+ }
+
+ .mobile__app__img__block:last-child{
+   width: 160px;
+ }
+}
