@@ -298,11 +298,9 @@ nav li{
   background-image: url(../img/bg_about_us.png);
   display: flex;
   flex-direction: column;
-  align-self:center;
-  
-  
-  
+  align-self:center; 
 }
+
 .sr_title_mr{
   margin: 70px 40px 30px 45px;
   
@@ -380,9 +378,9 @@ width: 100%;
   position: absolute;
   left: 0;
   bottom: 0px;
-  width: 165px;
-  z-index:2;
   width: 265px;
+  z-index:2;
+  
 }
 .menu__img__bg img{
   width: 100%;
@@ -408,6 +406,12 @@ width: 100%;
 }
 .menu__img img{
   width: 100%;
+}
+.order__img1{
+  order: 1;
+}
+.order__img2{
+  order: 2;
 }
 .menu__text {
   background-color:#fff;
@@ -438,7 +442,6 @@ width: 100%;
 
 .mobile__bg {
   background-image: url(../img/Layer\ 92.png);
-  
   background-color: black;
   background-size: 100% 100%;
   opacity: 0.9;
@@ -484,7 +487,6 @@ width: 100%;
   width: 245px;
 }
 .mobile__app__img__block:last-child{
-  margin-right: 20px;
   width: 270px;
 }
 .mobile__app__img__block img{

@@ -1,0 +1,131 @@
+@media only screen and (max-width : 992px) {
+/*-------all_style--------*/
+
+.wrapper{
+   max-width: 792px;
+}    
+   
+/*----------header----------*/
+
+ /*---nav---*/
+
+ nav li{
+   padding:30px 0px 30px 0px ;
+ }
+ 
+.nav a{
+   color: #fff;
+   font-size: 15px;
+   padding: 10px 10px 10px 10px;
+ }
+
+ /*----------banner----------*/
+
+.btt{
+   font-size: 70px; 
+}
+.text__text {
+   margin-top: 20px;  
+ }
+
+ /*------about-us------*/
+
+ .about__us{
+   padding-top: 50px;
+   padding-bottom: 90px;
+ }
+
+ /*-------special__recipes--------*/
+ 
+.special__block{
+   padding-top: 40px;  
+}
+
+.special__reciper__text{
+   width: 60%;  
+   z-index: 2;
+}
+
+.sr_title_mr{
+   margin: 30px 40px 20px 45px;
+}
+
+.special__reciper__img{
+   width:400px;
+   z-index: 1;
+   margin-left: -20px;
+   align-self:center;
+ }
+
+/*----delicacy----*/
+
+.delicacy__text__block {
+   padding: 50px 0px 45px 0px;
+ }
+
+.delicacy__img {
+   width: 100%; 
+}
+
+.delicacy__img img{
+   width: 190px;
+}
+
+/*-------menu---------*/
+
+.menu__block__text {
+   padding: 50px 0px 0px 0px;
+}
+
+.menu__img {
+   align-self:center;
+}
+
+.menu__text {
+   background-color:#fff;
+   width: 45%;
+}
+
+.menu__text {
+   width: 50%;
+   margin-left: -10px;
+}
+
+.m_t_m{
+   padding: 10px 0px 15px 15px;
+ }
+
+ .menu__list{
+   padding: 10px 0px 0px 15px;   
+   width: 90%;
+ }
+
+/*-------mobile--------*/
+
+.mobile__img {
+   width: 180px;
+ }
+
+.mobile___app {
+   color: #fff;
+   align-self: center;
+   margin-left:60px;
+ }
+
+.m_a_t_s{
+   font-size: 55px;
+ }
+
+ .m_a_t_t{
+   font-size: 20px;   
+ }
+
+ .mobile__app__img__block:first-child{
+   margin-right: 20px;
+   width: 145px;
+ }
+
+ .mobile__app__img__block:last-child{
+   width: 170px;
+ }
+}
